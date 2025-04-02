@@ -4,7 +4,7 @@ import ProfileCard from "./components/groupplan/ProfileCard";
 
 export default function Home() {
   return (
-    <div className="absolute top-[266px] left-[100px] w-[375px] h-[812px]">
+    <div>
       <StatusBar />
       <Header title="Group Plan"/>
       <ProfileCard />

@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         
       >
-        <StatusBar />
+        {/* <StatusBar /> */}
         {children}
       </body>
     </html>

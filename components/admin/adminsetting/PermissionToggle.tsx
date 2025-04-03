@@ -1,4 +1,4 @@
-import Toggle from "../../../utils/toogle"; // Adjust the import path as needed
+import Toggle from "../../../utils/toogle"; 
 import {PermissionToggleProps} from "../../../types/index";
 
 export default function PermissionToggle({ label, checked, onChange }: PermissionToggleProps) {

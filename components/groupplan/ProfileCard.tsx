@@ -4,7 +4,13 @@ import ProfileInfo from "./Profileinfo"
 import NavSection from "./NavSection"
 export default function ProfileCard(){
     return(
-        <div className="w-[375px]  h-[627px]mt-[92px] bg-[#6548B6]">
+        <div className="  w-full 
+     
+      
+      bg-gradient-to-r 
+      from-[#EEAAFD] 
+      via-[#8F65F8] 
+      to-[#483185]">
             <ProfileInfo />
             <NavSection />
             

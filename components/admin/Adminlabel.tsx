@@ -9,7 +9,7 @@ const lexendDeca = Lexend_Deca({
 export default function AdminLabel() {
   return (
     <span
-      className={`${lexendDeca.className} w-[59px] h-[24px] text-[16px] leading-[24px] text-[#181D27]`}
+      className={`${lexendDeca.className} w-[59px]  font-primary font-medium h-[24px] text-[16px] leading-[24px] text-[#181D27]`}
     >
       Admins
     </span>

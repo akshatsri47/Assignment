@@ -16,7 +16,7 @@ export default function NavItem({ icon, label, href }: NavItemProps) {
           <Image src={icon} alt={label} width={20} height={20} />
           <span className="text-sm text-gray-900">{label}</span>
         </div>
-        <ChevronRight className="w-4 h-4 text-gray-400" />
+        <ChevronRight className="w-4 h-4 text-gray-900" />
       </div>
     </Link>
     

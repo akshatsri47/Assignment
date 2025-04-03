@@ -1,11 +1,11 @@
-import StatusBar from "./components/groupplan/StatusBar";
-import Header from "./components/groupplan/Header";
-import ProfileCard from "./components/groupplan/ProfileCard";
+import StatusBar from "../components/groupplan/StatusBar";
+import Header from "../components/groupplan/Header";
+import ProfileCard from "../components/groupplan/ProfileCard";
 
 export default function Home() {
   return (
     <div>
-      <StatusBar />
+ 
       <Header title="Group Plan"/>
       <ProfileCard />
     </div>

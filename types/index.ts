@@ -1,6 +1,6 @@
 
 
-// AdminCard Component Types
+
 export interface AdminCardProps {
     id: string;
     name: string;
@@ -21,7 +21,7 @@ export interface AdminCardProps {
     placeholder?: string;
     required?: boolean;
   }
-  // AdminSettingsModal Types
+ 
   export interface Admin {
     id: number;
     name: string;
@@ -33,20 +33,20 @@ export interface AdminCardProps {
     onClose: () => void;
   }
   
-  // PermissionToggle Component Types
+  
   export interface PermissionToggleProps {
     label: string;
     checked: boolean;
     onChange: (checked: boolean) => void;
   }
   
-  // AccessLevelDropdown Component Types
+  
   export interface AccessLevelDropdownProps {
     selected: string;
     onSelect: (level: string) => void;
   }
   
-  // ActionButtons Component Types
+  
   export interface ActionButtonsProps {
     onRemoveUser: () => void;
     onUpdateAccess: () => void;
